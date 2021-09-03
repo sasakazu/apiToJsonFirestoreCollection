@@ -1,0 +1,6 @@
+framework module Pods_apiToJsonFirestoreCollection {
+  umbrella header "Pods-apiToJsonFirestoreCollection-umbrella.h"
+
+  export *
+  module * { export * }
+}

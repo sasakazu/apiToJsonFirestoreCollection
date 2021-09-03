@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664FC447F395336DD9BDADA4 /* Pods_apiToJsonFirestoreCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D925F0740761E22A97CE8EEF /* Pods_apiToJsonFirestoreCollection.framework */; };
 		730FC1CA26E2218F00954961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC1C926E2218F00954961 /* AppDelegate.swift */; };
 		730FC1CC26E2218F00954961 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC1CB26E2218F00954961 /* SceneDelegate.swift */; };
 		730FC1CE26E2218F00954961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC1CD26E2218F00954961 /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		730FC1D626E2219100954961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730FC1D426E2219100954961 /* LaunchScreen.storyboard */; };
 		730FC1E126E2219200954961 /* apiToJsonFirestoreCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC1E026E2219200954961 /* apiToJsonFirestoreCollectionTests.swift */; };
 		730FC1EC26E2219200954961 /* apiToJsonFirestoreCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC1EB26E2219200954961 /* apiToJsonFirestoreCollectionUITests.swift */; };
+		730FC1FA26E222FA00954961 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 730FC1F926E222FA00954961 /* GoogleService-Info.plist */; };
+		7C3F8D109647AACA039E3572 /* Pods_apiToJsonFirestoreCollection_apiToJsonFirestoreCollectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDDCBF89B970A7A737F8576 /* Pods_apiToJsonFirestoreCollection_apiToJsonFirestoreCollectionUITests.framework */; };
+		9F7CD335A16A2BAA93AA5E82 /* Pods_apiToJsonFirestoreCollectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC1A41449C8105207DBA35E /* Pods_apiToJsonFirestoreCollectionTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0539F86F40E804BFBFD44DEF /* Pods-apiToJsonFirestoreCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiToJsonFirestoreCollection.debug.xcconfig"; path = "Target Support Files/Pods-apiToJsonFirestoreCollection/Pods-apiToJsonFirestoreCollection.debug.xcconfig"; sourceTree = "<group>"; };
+		12797E850D82F28ADB5748D7 /* Pods-apiToJsonFirestoreCollectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiToJsonFirestoreCollectionTests.debug.xcconfig"; path = "Target Support Files/Pods-apiToJsonFirestoreCollectionTests/Pods-apiToJsonFirestoreCollectionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D0B0BEAD67F604E0F6E7CD6 /* Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests.release.xcconfig"; path = "Target Support Files/Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests/Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		730FC1C626E2218F00954961 /* apiToJsonFirestoreCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apiToJsonFirestoreCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		730FC1C926E2218F00954961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		730FC1CB26E2218F00954961 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		730FC1E726E2219200954961 /* apiToJsonFirestoreCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apiToJsonFirestoreCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		730FC1EB26E2219200954961 /* apiToJsonFirestoreCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiToJsonFirestoreCollectionUITests.swift; sourceTree = "<group>"; };
 		730FC1ED26E2219200954961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730FC1F926E222FA00954961 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7AE0CB18485CA24DC8E36680 /* Pods-apiToJsonFirestoreCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiToJsonFirestoreCollection.release.xcconfig"; path = "Target Support Files/Pods-apiToJsonFirestoreCollection/Pods-apiToJsonFirestoreCollection.release.xcconfig"; sourceTree = "<group>"; };
+		9AC1A41449C8105207DBA35E /* Pods_apiToJsonFirestoreCollectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apiToJsonFirestoreCollectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDDCBF89B970A7A737F8576 /* Pods_apiToJsonFirestoreCollection_apiToJsonFirestoreCollectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apiToJsonFirestoreCollection_apiToJsonFirestoreCollectionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25B746D469C9299D211E57A /* Pods-apiToJsonFirestoreCollectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiToJsonFirestoreCollectionTests.release.xcconfig"; path = "Target Support Files/Pods-apiToJsonFirestoreCollectionTests/Pods-apiToJsonFirestoreCollectionTests.release.xcconfig"; sourceTree = "<group>"; };
+		D925F0740761E22A97CE8EEF /* Pods_apiToJsonFirestoreCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apiToJsonFirestoreCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE71106D5C60F5847BE86824 /* Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests.debug.xcconfig"; path = "Target Support Files/Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests/Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664FC447F395336DD9BDADA4 /* Pods_apiToJsonFirestoreCollection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7CD335A16A2BAA93AA5E82 /* Pods_apiToJsonFirestoreCollectionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3F8D109647AACA039E3572 /* Pods_apiToJsonFirestoreCollection_apiToJsonFirestoreCollectionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				730FC1DF26E2219200954961 /* apiToJsonFirestoreCollectionTests */,
 				730FC1EA26E2219200954961 /* apiToJsonFirestoreCollectionUITests */,
 				730FC1C726E2218F00954961 /* Products */,
+				D467F1084AA401866DF4C22A /* Pods */,
+				C3AE3601AEF0A801547D03D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				730FC1CB26E2218F00954961 /* SceneDelegate.swift */,
 				730FC1CD26E2218F00954961 /* ViewController.swift */,
 				730FC1CF26E2218F00954961 /* Main.storyboard */,
+				730FC1F926E222FA00954961 /* GoogleService-Info.plist */,
 				730FC1D226E2219100954961 /* Assets.xcassets */,
 				730FC1D426E2219100954961 /* LaunchScreen.storyboard */,
 				730FC1D726E2219100954961 /* Info.plist */,
@@ -128,6 +148,29 @@
 			path = apiToJsonFirestoreCollectionUITests;
 			sourceTree = "<group>";
 		};
+		C3AE3601AEF0A801547D03D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D925F0740761E22A97CE8EEF /* Pods_apiToJsonFirestoreCollection.framework */,
+				9EDDCBF89B970A7A737F8576 /* Pods_apiToJsonFirestoreCollection_apiToJsonFirestoreCollectionUITests.framework */,
+				9AC1A41449C8105207DBA35E /* Pods_apiToJsonFirestoreCollectionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D467F1084AA401866DF4C22A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0539F86F40E804BFBFD44DEF /* Pods-apiToJsonFirestoreCollection.debug.xcconfig */,
+				7AE0CB18485CA24DC8E36680 /* Pods-apiToJsonFirestoreCollection.release.xcconfig */,
+				EE71106D5C60F5847BE86824 /* Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests.debug.xcconfig */,
+				4D0B0BEAD67F604E0F6E7CD6 /* Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests.release.xcconfig */,
+				12797E850D82F28ADB5748D7 /* Pods-apiToJsonFirestoreCollectionTests.debug.xcconfig */,
+				B25B746D469C9299D211E57A /* Pods-apiToJsonFirestoreCollectionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 730FC1F026E2219200954961 /* Build configuration list for PBXNativeTarget "apiToJsonFirestoreCollection" */;
 			buildPhases = (
+				EC4155E743A939EC68DFC4F1 /* [CP] Check Pods Manifest.lock */,
 				730FC1C226E2218F00954961 /* Sources */,
 				730FC1C326E2218F00954961 /* Frameworks */,
 				730FC1C426E2218F00954961 /* Resources */,
+				63A8FBB2AF8C6D5FEEAE4BCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 730FC1F326E2219200954961 /* Build configuration list for PBXNativeTarget "apiToJsonFirestoreCollectionTests" */;
 			buildPhases = (
+				B0895C33E0D30E59BE6D87B6 /* [CP] Check Pods Manifest.lock */,
 				730FC1D826E2219200954961 /* Sources */,
 				730FC1D926E2219200954961 /* Frameworks */,
 				730FC1DA26E2219200954961 /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 730FC1F626E2219200954961 /* Build configuration list for PBXNativeTarget "apiToJsonFirestoreCollectionUITests" */;
 			buildPhases = (
+				EAEFFF8C4309677B191A26E5 /* [CP] Check Pods Manifest.lock */,
 				730FC1E326E2219200954961 /* Sources */,
 				730FC1E426E2219200954961 /* Frameworks */,
 				730FC1E526E2219200954961 /* Resources */,
+				708991BAE568834067DD62AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				730FC1D626E2219100954961 /* LaunchScreen.storyboard in Resources */,
+				730FC1FA26E222FA00954961 /* GoogleService-Info.plist in Resources */,
 				730FC1D326E2219100954961 /* Assets.xcassets in Resources */,
 				730FC1D126E2218F00954961 /* Main.storyboard in Resources */,
 			);
@@ -252,6 +301,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63A8FBB2AF8C6D5FEEAE4BCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apiToJsonFirestoreCollection/Pods-apiToJsonFirestoreCollection-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apiToJsonFirestoreCollection/Pods-apiToJsonFirestoreCollection-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-apiToJsonFirestoreCollection/Pods-apiToJsonFirestoreCollection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		708991BAE568834067DD62AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests/Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests/Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests/Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0895C33E0D30E59BE6D87B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apiToJsonFirestoreCollectionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAEFFF8C4309677B191A26E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC4155E743A939EC68DFC4F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-apiToJsonFirestoreCollection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		730FC1C226E2218F00954961 /* Sources */ = {
@@ -433,6 +585,7 @@
 		};
 		730FC1F126E2219200954961 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0539F86F40E804BFBFD44DEF /* Pods-apiToJsonFirestoreCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +605,7 @@
 		};
 		730FC1F226E2219200954961 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE0CB18485CA24DC8E36680 /* Pods-apiToJsonFirestoreCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +625,7 @@
 		};
 		730FC1F426E2219200954961 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12797E850D82F28ADB5748D7 /* Pods-apiToJsonFirestoreCollectionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +648,7 @@
 		};
 		730FC1F526E2219200954961 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25B746D469C9299D211E57A /* Pods-apiToJsonFirestoreCollectionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +671,7 @@
 		};
 		730FC1F726E2219200954961 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE71106D5C60F5847BE86824 /* Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +692,7 @@
 		};
 		730FC1F826E2219200954961 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0B0BEAD67F604E0F6E7CD6 /* Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

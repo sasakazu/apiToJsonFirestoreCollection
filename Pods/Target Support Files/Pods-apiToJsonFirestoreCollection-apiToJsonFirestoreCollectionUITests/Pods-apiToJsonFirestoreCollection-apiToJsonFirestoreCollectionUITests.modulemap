@@ -1,0 +1,6 @@
+framework module Pods_apiToJsonFirestoreCollection_apiToJsonFirestoreCollectionUITests {
+  umbrella header "Pods-apiToJsonFirestoreCollection-apiToJsonFirestoreCollectionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
