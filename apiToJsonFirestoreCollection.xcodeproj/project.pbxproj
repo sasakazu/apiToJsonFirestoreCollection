@@ -23,6 +23,8 @@
 		730FC20226E22D3700954961 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC20126E22D3700954961 /* model.swift */; };
 		730FC20526E22E2F00954961 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC20326E22E2F00954961 /* TableViewCell.swift */; };
 		730FC20626E22E2F00954961 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730FC20426E22E2F00954961 /* TableViewCell.xib */; };
+		730FC20926E36D7700954961 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730FC20726E36D7700954961 /* CollectionViewCell.swift */; };
+		730FC20A26E36D7700954961 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730FC20826E36D7700954961 /* CollectionViewCell.xib */; };
 		7C3F8D109647AACA039E3572 /* Pods_apiToJsonFirestoreCollection_apiToJsonFirestoreCollectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDDCBF89B970A7A737F8576 /* Pods_apiToJsonFirestoreCollection_apiToJsonFirestoreCollectionUITests.framework */; };
 		9F7CD335A16A2BAA93AA5E82 /* Pods_apiToJsonFirestoreCollectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC1A41449C8105207DBA35E /* Pods_apiToJsonFirestoreCollectionTests.framework */; };
 /* End PBXBuildFile section */
@@ -69,6 +71,8 @@
 		730FC20126E22D3700954961 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		730FC20326E22E2F00954961 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		730FC20426E22E2F00954961 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		730FC20726E36D7700954961 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		730FC20826E36D7700954961 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		7AE0CB18485CA24DC8E36680 /* Pods-apiToJsonFirestoreCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apiToJsonFirestoreCollection.release.xcconfig"; path = "Target Support Files/Pods-apiToJsonFirestoreCollection/Pods-apiToJsonFirestoreCollection.release.xcconfig"; sourceTree = "<group>"; };
 		9AC1A41449C8105207DBA35E /* Pods_apiToJsonFirestoreCollectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apiToJsonFirestoreCollectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDDCBF89B970A7A737F8576 /* Pods_apiToJsonFirestoreCollection_apiToJsonFirestoreCollectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apiToJsonFirestoreCollection_apiToJsonFirestoreCollectionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +141,8 @@
 				730FC1CB26E2218F00954961 /* SceneDelegate.swift */,
 				730FC1CD26E2218F00954961 /* ViewController.swift */,
 				730FC1CF26E2218F00954961 /* Main.storyboard */,
+				730FC20726E36D7700954961 /* CollectionViewCell.swift */,
+				730FC20826E36D7700954961 /* CollectionViewCell.xib */,
 				730FC1FF26E2259B00954961 /* collectionViewController.swift */,
 				730FC1FD26E2257C00954961 /* buttonViewController.swift */,
 				730FC1FB26E2256500954961 /* loginViewController.swift */,
@@ -299,6 +305,7 @@
 			files = (
 				730FC1D626E2219100954961 /* LaunchScreen.storyboard in Resources */,
 				730FC20626E22E2F00954961 /* TableViewCell.xib in Resources */,
+				730FC20A26E36D7700954961 /* CollectionViewCell.xib in Resources */,
 				730FC1FA26E222FA00954961 /* GoogleService-Info.plist in Resources */,
 				730FC1D326E2219100954961 /* Assets.xcassets in Resources */,
 				730FC1D126E2218F00954961 /* Main.storyboard in Resources */,
@@ -431,6 +438,7 @@
 			files = (
 				730FC1FC26E2256500954961 /* loginViewController.swift in Sources */,
 				730FC20526E22E2F00954961 /* TableViewCell.swift in Sources */,
+				730FC20926E36D7700954961 /* CollectionViewCell.swift in Sources */,
 				730FC1CE26E2218F00954961 /* ViewController.swift in Sources */,
 				730FC20026E2259B00954961 /* collectionViewController.swift in Sources */,
 				730FC1CA26E2218F00954961 /* AppDelegate.swift in Sources */,

@@ -10,6 +10,7 @@ target 'apiToJsonFirestoreCollection' do
   pod 'Firebase'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod 'SDWebImage'
   
   target 'apiToJsonFirestoreCollectionTests' do
     inherit! :search_paths

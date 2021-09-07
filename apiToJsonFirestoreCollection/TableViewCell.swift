@@ -6,15 +6,13 @@
 //
 
 import UIKit
+import Firebase
 
 class TableViewCell: UITableViewCell {
 
     
     @IBOutlet weak var testImage: UIImageView!
-    
-    
     @IBOutlet weak var testLabel: UILabel!
-    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -44,8 +42,28 @@ class TableViewCell: UITableViewCell {
     
     
     @IBAction func addBtn(_ sender: Any) {
+        
+        let db = Firestore.firestore()
+        
+        let user = Auth.auth().currentUser
+        
+        db.collection("users").document(user!.uid).collection("posts").addDocument(data:[
+            "title": recip?.title ?? "",
+            "smallImageUrl": recip?.smallImageUrl ?? "",
+            "artistName": recip?.artistName ?? ""
+        ]) { err in
+            if let err = err {
+                print("Error writing document: \(err)")
+            } else {
+                print("Document successfully written!")
+        
+        }
+        
     }
     
+    
+    
+    }
     
     
 }
